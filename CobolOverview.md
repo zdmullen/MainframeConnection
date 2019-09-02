@@ -1,6 +1,6 @@
-#Overview of COBOL for learning
+# Overview of COBOL for learning
 
-##Divisions of a COBOL program
+## Divisions of a COBOL program
       
 IDENTIFICATION DIVISION. 
       Optional statements:
@@ -10,6 +10,15 @@ IDENTIFICATION DIVISION.
       Security - security level of program
       
 ENVIRONMENT DIVISION. - contains optionally provided information about the environment where the program will run. Includes details such as:
-      Files accessed and the mode
+      Files accessed and the mode used to access them (input or output, sequential, or random)
+      Currency symbol to use ($ or something else)
+      Other symbolic characters used
+      Relate XML schema names to files (COBOL 14 standard)
+      Object-oriented class names that can be used in a class definition or program (COBOL 2002 standard)
+      
+DATA-DIVISION. -contains the code needed to process the data and produce the program's required output.
+COBOL statements are instructions to perform tasks. Must be terminated by a period. Sentences can be grouped in one or more procedures.
+
+
 
 ###
